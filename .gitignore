@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Virtual Environments ----
+sms-spam-env/
+
+# ---- Data Folder ----
+Data/
+
+# ---- VSCode Editor Settings (optional) ----
+.vscode/
+
+# ---- OS Generated Files ----
+.DS_Store      # macOS
+Thumbs.db      # Windows
+desktop.ini    # Windows
+
+# ---- Logs and other (if you ever have them) ----
+*.log
+
+# ---- Environment Files (future-proofing) ----
+.env
+.env.*
+
+# ---- Other backup/system files (optional) ----
+*.bak
+*.swp
+*.swo
