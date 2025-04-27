@@ -44,7 +44,7 @@ This project builds reliable SMS spam detectors for both English and Farsi langu
 ## 📁 Project Structure
 The project is organized as follows:
 
-```mathematica
+```
 Data/
 ├── English/
 │   ├── 1. Main/
@@ -182,16 +182,16 @@ Model performance is visualized using:
 1. Clone this repository:
    ```bash
    git clone https://github.com/Hosein-Ghojavand/multilingual-spam-detection.git
-   
+   ```
 2. Set up a virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-   
+   ```
 3. Install the required libraries:
    ```bash
    pip install -r requirements.txt
-
+   ```
 4. Open and run the notebooks inside the `Notebooks/` directory.
 
 ---
