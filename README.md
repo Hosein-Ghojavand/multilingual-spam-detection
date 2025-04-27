@@ -213,8 +213,10 @@ Main libraries used include:
 
 ## ⚡ Future Work
 
-- Extend to more languages.
-- Experiment with deep learning models (e.g., LSTM, transformers).
-- Improve synthetic data generation methods.
+- **Extend multilingual capabilities** by adding support for additional languages beyond English and Farsi.
+- **Explore deep learning approaches** such as LSTM, GRU, or transformer-based models for potentially higher detection accuracy.
+- **Enhance synthetic data generation methods** using more advanced prompting techniques and evaluating newer LLMs.
+- **Refactor and optimize the codebase** to improve readability, modularity, and scalability.
+- **Investigate real-world deployment** options (e.g., building a simple web app or API for spam detection).
 
 ---
