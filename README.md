@@ -144,8 +144,19 @@ Notebooks/
 │   │   ├── generate_synthetic_farsi_sms.ipynb   (Gemini)
 
 ```
+## 📁 Data Availability
 
+> **Note:**  
+> Due to licensing and publication restrictions, the real Farsi SMS dataset collected for this project is currently under review for official release through the university’s Big Data Research Center.  
+> As a result, the `Data/` folder, including original datasets and visualizations, is not included in this repository.  
+> Synthetic datasets generated during the project may be shared separately upon request.
 
+- **English SMS Dataset:**  
+  The English SMS data used in this project is based on the [SMS Spam Collection Dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection),  
+  available through the UCI Machine Learning Repository.  
+  License: Open Data
+
+  
 ## 🧠 Project Description
 
 - **Objective**: Build reliable SMS spam detectors for English and Farsi using classical ML techniques, enhanced with synthetic data.
@@ -169,7 +180,6 @@ Model performance is visualized using:
 2. Set up a virtual environment and install required libraries.
 3. Run the notebooks inside the `Notebooks/` folder.
 
-> **Note**: The `Data/` folder (datasets) is not included in the repository yet. I will provide the link to it here soon
 
 ## 📦 Requirements
 
