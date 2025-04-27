@@ -35,7 +35,7 @@ This project builds reliable SMS spam detectors for both English and Farsi langu
 ### Approach
 - Preprocess datasets using natural language processing (NLP) techniques.
 - Train models on original, synthetic, and combined datasets.
-- Generate synthetic datasets with LLMs such as DeepSeek and Gemini.
+- Generate synthetic datasets with LLMs like **DeepSeek-r1:1.5b**, **Gemini 2.0 Flash**, and **Gemini 2.0 Flash Lite**.
 - Evaluate models with metrics like accuracy, precision, recall, and F1-score.
 - Visualize performance through intuitive plots for easy comparison.
 
