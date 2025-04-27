@@ -38,27 +38,48 @@ Notebooks/
 ├── English/
 │   ├── Model Training/
 │   │   ├── Results/
-│   │   │   ├── barplot_model_performance.png
-│   │   │   ├── heatmap_model_performance_chart.png
-│   │   ├── Train_combined_english_sms.ipynb
-│   │   ├── Train_combined_english_sms_gemini.ipynb
-│   │   ├── Train_english_sms.ipynb
-│   │   ├── Train_synthetic_english_sms.ipynb
-│   │   ├── Train_synthetic_english_sms_gemini.ipynb
+│   │   │   ├── Train_combined_english_sms/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   │   ├── Train_combined_english_sms_gemini/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   │   ├── Train_english_sms/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   │   ├── Train_synthetic_english_sms/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   │   ├── Train_synthetic_english_sms_gemini/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   ├── Train_combined_english_sms.ipynb   (trained on real + DeepSeek synthetic data)
+│   │   ├── Train_combined_english_sms_gemini.ipynb   (trained on real + Gemini synthetic data)
+│   │   ├── Train_english_sms.ipynb   (trained on real English SMS data)
+│   │   ├── Train_synthetic_english_sms.ipynb   (trained on DeepSeek synthetic data)
+│   │   ├── Train_synthetic_english_sms_gemini.ipynb   (trained on Gemini synthetic data)
 │   ├── Synthetic Data Generation/
-│   │   ├── generate_synthetic_english_sms.ipynb   (deepseek-r1:1.5b)
-│   │   ├── generate_synthetic_english_sms_gemini.ipynb
+│   │   ├── generate_synthetic_english_sms.ipynb   (DeepSeek-r1:1.5b)
+│   │   ├── generate_synthetic_english_sms_gemini.ipynb   (Gemini)
 │
 ├── Farsi/
 │   ├── Model Training/
 │   │   ├── Results/
-│   │   │   ├── barplot_model_performance.png
-│   │   │   ├── heatmap_model_performance_chart.png
-│   │   ├── Train_combined_farsi_sms.ipynb
-│   │   ├── Train_farsi_sms.ipynb
-│   │   ├── Train_synthetic_farsi_sms.ipynb
+│   │   │   ├── Train_combined_farsi_sms/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   │   ├── Train_farsi_sms/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   │   ├── Train_synthetic_farsi_sms/
+│   │   │   │   ├── barplot_model_performance.png
+│   │   │   │   ├── heatmap_model_performance_chart.png
+│   │   ├── Train_combined_farsi_sms.ipynb   (trained on real + Gemini synthetic data)
+│   │   ├── Train_farsi_sms.ipynb   (trained on real Farsi SMS data)
+│   │   ├── Train_synthetic_farsi_sms.ipynb   (trained on Gemini synthetic data)
 │   ├── Synthetic Data Generation/
-│   │   ├── generate_synthetic_farsi_sms.ipynb
+│   │   ├── generate_synthetic_farsi_sms.ipynb   (Gemini)
+
 ```
 
 
