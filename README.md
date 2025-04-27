@@ -179,9 +179,20 @@ Model performance is visualized using:
 
 ## 🛠️ How to Run
 
-1. Clone the repository.
-2. Set up a virtual environment and install required libraries.
-3. Run the notebooks inside the `Notebooks/` folder.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Hosein-Ghojavand/multilingual-spam-detection.git
+   
+2. Set up a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+   
+3. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+4. Open and run the notebooks inside the `Notebooks/` directory.
 
 ---
 
