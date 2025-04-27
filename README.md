@@ -18,7 +18,6 @@ This project addresses this gap by building multilingual spam detectors, while e
 
 - Handle language-specific preprocessing challenges (e.g., Farsi normalization, emoji handling).
 
-- Keep the project lightweight and reproducible using classical machine learning techniques.
 
 ## 🚀 Features
 - Multilingual spam detection (**English** and **Farsi**).
@@ -34,6 +33,70 @@ This project addresses this gap by building multilingual spam detectors, while e
 ## 📁 Project Structure
 The project is organized as follows:
 ```
+Data/
+├── English/
+│   ├── 1. Main/
+│   │   ├── english_sms.csv
+│   │   ├── F_Number of Characters.png
+│   │   ├── F_Number of Emojis.png
+│   │   ├── F_Number of Sentences.png
+│   │   ├── F_Number of words.png
+│   │   ├── F_Spam_vs_Ham_distribution.png
+│   │   ├── Top 20 Most Frequent Words.png
+│   │   ├── Word Cloud.png
+│   ├── 2. Synthetic/
+│   │   ├── synthetic_english_sms.csv   (generated with DeepSeek-r1:1.5b)
+│   │   ├── synthetic_english_sms/   (visualizations of DeepSeek-r1:1.5b synthetic data)
+│   │   │   ├── F_Number of Characters.png
+│   │   │   ├── F_Number of Emojis.png
+│   │   │   ├── F_Number of Sentences.png
+│   │   │   ├── F_Number of words.png
+│   │   │   ├── F_Spam_vs_Ham_distribution.png
+│   │   │   ├── Top 20 Most Frequent Words.png
+│   │   │   ├── Word Cloud.png
+│   │   ├── synthetic_english_sms_gemini.csv   (generated with Gemini)
+│   │   ├── synthetic_english_sms_gemini/   (visualizations of Gemini synthetic data)
+│   │   │   ├── F_Number of Characters.png
+│   │   │   ├── F_Number of Emojis.png
+│   │   │   ├── F_Number of Sentences.png
+│   │   │   ├── F_Number of words.png
+│   │   │   ├── F_Spam_vs_Ham_distribution.png
+│   │   │   ├── Top 20 Most Frequent Words.png
+│   │   │   ├── Word Cloud.png
+│   ├── 3. Preprocessed/
+│   │   ├── preprocessed_english_sms.csv
+│   │   ├── preprocessed_synthetic_english_sms.csv   (from DeepSeek synthetic data)
+│   │   ├── preprocessed_synthetic_english_sms_gemini.csv   (from Gemini synthetic data)
+│   ├── 4. Combined/
+│   │   ├── combined_english_sms.csv   (real + DeepSeek synthetic)
+│   │   ├── combined_english_sms_gemini.csv   (real + Gemini synthetic)
+│
+├── Farsi/
+│   ├── 1. Main/
+│   │   ├── farsi_sms.csv
+│   │   ├── F_Number of Characters.png
+│   │   ├── F_Number of Emojis.png
+│   │   ├── F_Number of Sentences.png
+│   │   ├── F_Number of words.png
+│   │   ├── F_Spam_vs_Ham_distribution.png
+│   │   ├── Top 20 Most Frequent Words.png
+│   │   ├── Word Cloud.png
+│   ├── 2. Synthetic/
+│   │   ├── synthetic_farsi_sms.csv   (generated with Gemini)
+│   │   ├── F_Number of Characters.png
+│   │   ├── F_Number of Emojis.png
+│   │   ├── F_Number of Sentences.png
+│   │   ├── F_Number of words.png
+│   │   ├── F_Spam_vs_Ham_distribution.png
+│   │   ├── Top 20 Most Frequent Words.png
+│   │   ├── Word Cloud.png
+│   ├── 3. Preprocessed/
+│   │   ├── preprocessed_farsi_sms.csv
+│   │   ├── preprocessed_synthetic_farsi_sms.csv   (from Gemini synthetic data)
+│   ├── 4. Combined/
+│   │   ├── combined_farsi_sms.csv   (real + Gemini synthetic)
+
+
 Notebooks/
 ├── English/
 │   ├── Model Training/
@@ -99,7 +162,6 @@ Model performance is visualized using:
 - **Bar plots** comparing F1-scores across models.
 - **Heatmaps** showing detailed performance metrics.
 
-(Located under each `Results/` folder.)
 
 ## 🛠️ How to Run
 
